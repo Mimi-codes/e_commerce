@@ -1,0 +1,66 @@
+.nav {
+    display: flex;
+}
+
+.nav .logo {
+margin-left: 4rem;
+font-size: 3rem;
+}
+
+ul{
+display: flex;
+margin-top: 4.3rem;
+margin-left: 20rem;
+}
+
+ul li {
+list-style: none;
+}
+
+li a {
+text-decoration: none;
+text-transform: capitalize;
+color: black;
+font-size: 1.5rem;
+margin-right: 2rem;
+}
+
+li:nth-last-child(2) {
+    margin-left: 12rem;
+}
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 490px) {
+    .nav {
+        display: block;
+        max-width: 100vw;
+    }
+    
+    .nav .logo {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2rem;
+    }
+    
+    ul{
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    text-align: center;
+    }
+    
+    li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.2rem; 
+    margin-bottom: 3rem;
+    }
+    
+    li:nth-last-child(2) {
+        margin: 0;
+    }
+    
+}  
