@@ -1,0 +1,33 @@
+.svg {
+    display: flex;
+margin-left: 19rem;
+margin-right: 19rem;
+}
+
+.svg-img {
+    background: white;
+    margin-right: 3rem;
+    position: relative;
+    top: 3rem;
+    width: 14rem;
+    height: 8rem;
+}
+
+.description{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(194, 151, 34);
+}
+
+
+@media only screen and (max-width: 480px) {
+    .svg {
+        display: none;
+    }
+    
+    
+}
+
+
+
