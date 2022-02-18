@@ -1,0 +1,20 @@
+.hero-bg {
+    background-image: url('../../assets/cakeroll2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 490px) {
+.hero-bg {
+margin: 0;
+}
+
+}

@@ -1,0 +1,50 @@
+.hero-section-content {
+    display: flex;
+}
+
+.hero-text {
+    margin-left: 8rem;
+}
+
+.hero-text h2{
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .hero-section-content {
+        display: block;
+    }
+
+    
+.hero-text {
+margin: 0;
+text-align: center;
+}
+
+.hero-text h2{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+}
+
+
+
+}
