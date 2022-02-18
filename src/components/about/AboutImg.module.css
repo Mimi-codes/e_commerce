@@ -1,0 +1,25 @@
+.image {
+    margin-left: 1rem;
+    max-width: 50%;
+    height: 100%;
+}
+
+.image img{
+     margin-top: 8rem;
+  }
+
+  
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px) {
+
+    .image  {
+    margin-left: 3rem;
+ margin-right: 3rem;
+ height: 705;
+ max-width: 30%;
+}
+
+.image img {
+  max-width: 80%; 
+}
+}

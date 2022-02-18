@@ -1,5 +1,7 @@
 import classes from './HeroSvg.module.css';
 import {BiCookie, BiCake} from 'react-icons/bi';
+import About from '../about/About';
+
 
 function HeroSvg() {
 
