@@ -1,58 +1,84 @@
-
-
-.hr {
-    border-top: 3px solid red;
-    width: 30px;
-    height:8px;
+.about-text {
+margin-top: 4rem;    
 }
 
-.perfect {
-    margin-top: 20rem;
-    margin-left: 3rem;
-    margin-right: 7rem;
-    margin-bottom: 3.5rem;
+
+   .hr {
+    display: block;
+    width: 3rem;
+    background: red;
+    height: 0.2rem;
+    margin-left: 10.7rem;
+    margin-right: 10.7rem;
+    position: relative;
+    top: 6rem;
+    margin-left: 17rem;
 }
 
-.main-discover {
-    font-size: 3rem;
+ h4.text {
+    text-transform: uppercase;
+    color: black;
+position: relative;
+top: 5rem;
+margin-left: 17rem;
 }
+        
+        .about-brand {
+            margin-left: 17rem;
+            margin-right: 13rem;
+        text-transform: capitalize;
+        font-size: 3rem;
+        position: relative;
+        top: 2rem;
+    }
+    
+    .about-para {
+        margin-left: 17rem;
+        margin-right: 13rem;
+        font-size: 1.5rem;
+        position: relative;
+        bottom: 0.9rem;
+    }
 
-.main-discover-para {
-    font-size: 1.2rem;
-}
 
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
-  
-.discover {
-    max-width: 100vw;
-    display: block;
+    .hr {
+        display: block;
+        width: 3rem;
+        background: red;
+        height: 0.2rem;
+        margin-left: 10.7rem;
+        margin-right: 10.7rem;
+        position: absolute;
+        top: 0.2rem;
+    }
+
+     h4.text {
+        text-transform: uppercase;
+        color: black;
+position: relative;
+top: 0.5rem;
+margin-left: 9.5rem;
+margin-right: 9.5rem;
+    }
+    
+    .about-text {
+position: relative;
+bottom: 18rem;
+    }
+    
+    .about-brand {
+    text-transform: capitalize;
+    font-size: 1.3rem;
 }
 
-.perfect {
-    text-align: center;
-    display: block;
+.about-para {
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 0.8rem;
 }
-
-.main-discover {
-    display: block;
-    font-size: 1.1rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-}
-
-.main-discover-para {
-    font-size: 0.7rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.hr {
-    display: block;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    font-size: 1.1rem;
-}
-
 }

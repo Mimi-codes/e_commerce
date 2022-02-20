@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 
@@ -10,6 +10,8 @@
 
 .about {
     display: block;
+    margin: 0;
+    text-align: center;
 }
 
 }
