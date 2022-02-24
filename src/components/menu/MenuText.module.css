@@ -1,42 +1,31 @@
-.about-text {
-margin-top: 12rem; 
+.menu-text {
+    text-align: center;
 }
 
-
-   .hr {
+.hr {
     display: block;
-    width: 2rem;
+    width: 1.7rem;
     background: red;
     height: 0.2rem;
     position: relative;
     top: 0.7rem;
-    margin-left: 26rem;
+    margin-left: 52rem;
 }
 
- h4.text {
+h4.text {
     text-transform: uppercase;
     color: black;
 position: relative;
-margin-left: 26rem;
 }
 
-        .about-brand {
-            margin-left: 26rem;
-        text-transform: capitalize;
-        font-size: 3rem;
-        position: relative;
-        bottom: 3rem;
-   
-    }
+.our-menu {
+    text-transform: capitalize;
+    font-size: 3rem;
+    position: relative;
+    bottom: 3rem;
 
-    .about-para {
-        font-size: 1.5rem;
-        position: relative;
-        bottom: 5rem;
-        margin-left: 26rem;
-        margin-right: 10rem;
-    }
- 
+}
+
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
@@ -49,6 +38,8 @@ margin-left: 26rem;
         height: 0.2rem;
         margin-left: 7.7rem;
         margin-right: 7.7rem;
+        position: absolute;
+        bottom: 2rem;
 display: none;
     }
 
@@ -58,31 +49,25 @@ display: none;
 margin-left: 5.5rem;
 margin-right: 5.5rem;
 position: relative;
-bottom: 12rem;
+bottom: 6rem;
 font-size: 0.8rem;
     }
     
-    .about-text {
+    .menu-text {
 display: block;
 position: relative;
 top: 2rem;
 text-align: center;
     }
     
- .about-brand {
+ .our-menu {
     text-transform: capitalize;
     font-size: 1.3rem;
     position: relative;
-    bottom: 13rem;
+    bottom: 7rem;
 margin-left: 1.5rem;
 margin-right: 1.5rem;
 }
 
-.about-para {
-    margin-left: 2.3rem;
-    margin-right: 2.3rem;
-    font-size: 0.8rem;
-    position: relative;
-    bottom: 14rem;
-}
+
 }

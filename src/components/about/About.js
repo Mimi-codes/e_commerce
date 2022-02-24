@@ -6,9 +6,11 @@ import AboutText from './AboutText';
 function About() {
 return (
     <>
+    <div className={classes['about-bg']}>
     <div className={classes.about}>
 <AboutImg />
 <AboutText />
+    </div>
     </div>
     </>
 )

@@ -1,7 +1,7 @@
 .about-btn {
-margin-left: 17rem;
-    position: relative;
-    bottom: 2rem;
+margin-left: 26rem;
+position: relative;
+bottom: 6rem;
 }
 
 
@@ -28,13 +28,13 @@ margin-left: 17rem;
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
-.about-btn {
-    position: relative;
-    bottom: 5.8rem;
-}
+    .about-btn {
+        margin-left: 0.3rem;
+        position: relative;
+        bottom: 2.5rem;
+        }
 
     .btn {
-        margin-left: 7rem;
         text-transform: uppercase;
         background: rgb(155, 80, 10);
         padding: 0.5rem;
@@ -42,15 +42,17 @@ margin-left: 17rem;
         border: none;
         width: 5rem;
         font-size: 0.45rem;
-    } 
+        margin-top: 5rem;
+        margin-left: 0;
+        } 
 
     .arrow-icon {
         width: 2rem;
         background: rgb(190, 171, 117);
         padding: 0.33rem 0.4rem 0.2rem 0.4rem;
-        position: relative;
-        top: 0.6rem;
-        margin-right: 7rem;
-    }
+position: relative;
+top: 0.6rem;
+
+         }
 
 }

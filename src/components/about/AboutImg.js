@@ -1,5 +1,5 @@
 import classes from './AboutImg.module.css';
-import perfectSnack from '../../assets/svg/choc.png';
+import perfectSnack from '../../assets/forest-cake-removebg-preview.png';
 
 function AboutImg() {
     return (
