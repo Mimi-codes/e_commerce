@@ -8,6 +8,7 @@ import Recipe from './components/recipe/Recipe';
 import Menu from './components/menu/Menu';
 import Testimonial from './components/testimonial/Testimonial';
 import Booking from './components/booking/Booking';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
   <Menu />
   <Testimonial />
   <Booking />
+  <Footer />
 </>
     );
 }

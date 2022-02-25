@@ -1,7 +1,55 @@
+/*
 .row-one, .row-two {
     display: flex;
     margin-left: 3rem;
     justify-content: center;
 }
+*/
+
+.form {
+
+}
+
+.row-one {
+display: flex;
+position: relative;
+bottom: 20rem;
+align-items: center;
+justify-content: center;
+}
+
+.row-two {
+    display: flex;
+    position: relative;
+    bottom: 18rem;
+    align-items: center;
+justify-content: center;
+
+    }
 
 
+    .row-three {
+        position: relative;
+        bottom: 18rem;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    input {
+        margin-right: 2rem;
+        padding: 0.5rem 0;
+        width: 20rem;
+        background: rgb(168, 166, 166);
+        border: none;
+    }
+
+    .row-one p, .row-two p {
+        color: red;
+        margin-left: 1.2rem;
+    }
+
+    BiUser{
+        background: rgb(168, 166, 166);
+        border: none;
+    }

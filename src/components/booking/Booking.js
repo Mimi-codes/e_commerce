@@ -1,14 +1,14 @@
 
 import classes from './Booking.module.css'
 import BookingText from './BookingText';
-// import ReservationForm from './ReservationForm';
+import ReservationForm from './ReservationForm';
 
 function Booking() {
     return (
       <>
       <div className={classes['booking-body']}>\
 <BookingText />
-{/* <ReservationForm /> */}
+<ReservationForm />
 </div>
       </>
     )
