@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+    margin-left: 8rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 1.5rem;
+    margin-right: 18rem;
+    margin-top: 2rem;
+    width: 37rem;
+    margin-top: 10rem;
+    height: 35rem;
+    border-radius: 0.5rem;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+.container p {
+    text-align: center;
+}
+
+
+.container p:nth-last-child(1) {
+color: goldenrod;
+}
+
+
+.container p:nth-last-child(1), .container p:nth-last-child(2) {
+    text-transform: uppercase;
+}
+
+.container h4 {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+}

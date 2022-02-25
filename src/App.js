@@ -6,6 +6,8 @@ import HeroSectionBg from './components/herosection/HeroSectionBg';
 import About from './components/about/About';
 import Recipe from './components/recipe/Recipe';
 import Menu from './components/menu/Menu';
+import Testimonial from './components/testimonial/Testimonial';
+import Booking from './components/booking/Booking';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
   <About />
   <Recipe />
   <Menu />
+  <Testimonial />
+  <Booking />
 </>
     );
 }

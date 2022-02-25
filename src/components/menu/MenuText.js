@@ -1,3 +1,4 @@
+import Cakes from './cakes/Cakes';
 import MenuLinks from './MenuLinks';
 import classes from './MenuText.module.css';
 
@@ -11,6 +12,8 @@ function MenuText() {
     <h4 className={classes['our-menu']}>our menu</h4>
    </div>
    <MenuLinks />
+   <Cakes />
+   
    </div>
         </>
     )

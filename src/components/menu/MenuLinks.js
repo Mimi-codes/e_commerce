@@ -10,7 +10,7 @@ function MenuLinks() {
         <li className={classes}><a href =''>pies</a></li>
         <li className={classes}><a href =''>doughnuts</a></li>
         <li className={classes}><a href =''>chin-chin</a></li>
-        <li className={classes}><a href =''>drinks</a></li>
+        <li className={classes}><a href ='./drinks/Drinks'>drinks</a></li>
     </ul>
     </div>
         )

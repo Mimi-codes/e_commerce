@@ -1,0 +1,35 @@
+.form-section {
+    
+    position: relative;
+    bottom: 20rem;
+}
+
+
+.hr {
+    border-top: 3px solid red;
+    width: 30px;
+    height:8px;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    margin-left: 50rem;
+}
+
+
+.booking {  
+    text-align: center;
+}
+
+.perfect {
+    margin-right: 15rem;
+    margin-bottom: 3.5rem;
+}
+
+.book {
+    font-size: 3rem;
+}
+
+.booking-para {
+    font-size: 1.2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
