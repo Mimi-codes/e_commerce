@@ -2,50 +2,17 @@
 display: flex;
 position: relative;
 bottom: 14rem;
+margin-top: 6rem;
 }
 
 .brand {
-    margin-top: 4rem;
+    margin-top: 8rem;
     text-transform: uppercase;
-}
-
-.site-map {
-    margin-left: 8rem;
-}
-
-.site-map h3 {
-    margin-left: 4rem;
-    text-transform: capitalize;
-}
-
-.explore h3 {
-    text-transform: capitalize;
-    margin-left: 4rem;
+    margin-left: 12rem;
+    flex: 4;
 }
 
 
 
-.explore {
-    margin-left: 5rem;
-}
 
-.newsletter {
-}
 
-.newsletter h3 {
-    margin-left: 16rem; 
-}
-
-.newsletter p {
-    margin-left: 16rem;
-    margin-right: 4rem;
-}
-
-.newsletter input {
-    margin-left: 16rem;
-}
-
-ul li {
-    list-style: none;
-    text-transform: capitalize;
-}

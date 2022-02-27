@@ -37,3 +37,55 @@ text-transform: capitalize;
     display: block;
     width: 20rem;
 }
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px) {
+
+
+
+    .hr {
+        border-top: 3px solid red;
+        width: 30px;
+        height:8px;
+        margin-top: 10rem;
+    }
+    
+    .testimonial {
+        display: block;   
+        margin-left: 0rem; 
+    }
+    
+    .testimonial-section {
+        overflow-x: hidden;
+    }
+    
+    .perfect {
+        margin-top: 20rem;
+        margin-right: 15rem;
+        margin-bottom: 3.5rem;
+    }
+    
+    .hear {
+        font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    }
+    
+    .hear-para {
+        font-size: 0.8rem;
+margin-left: 2.3rem;
+margin-right: 2.3rem;
+    }
+    
+
+    .customers img {
+        max-width: 80%;
+        margin-left: 0.5rem;
+        margin-right: 5rem;
+        left: 1rem;
+      }
+    
+    
+}

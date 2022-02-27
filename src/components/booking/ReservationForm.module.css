@@ -6,9 +6,9 @@
 }
 */
 
-.form {
 
-}
+
+
 
 .row-one {
 display: flex;
@@ -16,6 +16,13 @@ position: relative;
 bottom: 20rem;
 align-items: center;
 justify-content: center;
+}
+
+
+.row-one input {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+background: rgb(240, 234, 234);
+
 }
 
 .row-two {
@@ -27,6 +34,13 @@ justify-content: center;
 
     }
 
+    
+.row-two input {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+background: rgb(240, 234, 234);
+}
+
+
 
     .row-three {
         position: relative;
@@ -35,6 +49,15 @@ justify-content: center;
         justify-content: center;
         
     }
+
+    
+.row-three input {
+    padding: 1rem 50rem 6rem 3rem;
+background: rgb(240, 234, 234);
+margin-left: 15rem;
+margin-top: 2rem;
+
+}
 
     input {
         margin-right: 2rem;
