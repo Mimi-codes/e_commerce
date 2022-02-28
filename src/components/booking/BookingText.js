@@ -14,7 +14,8 @@ function BookingText() {
       </div>
       </div>
           
-          </div></>
+          </div>
+          </>
     )
     }
     export default BookingText;

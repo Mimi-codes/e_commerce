@@ -16,12 +16,8 @@ return (
     of snack of different varieties, providing our customers with a product
     always fresh and fresh from the oven and giving your taste buds a tasty treat.</p> 
     <img src={cakeLoaf} alt ='cake loaf'/>
-    {/* <HeroButton /> */}
+ 
     </div>
-    {/* <div className={classes['pro-card']}> */}
-    {/* <TestimonialCard /> */}
-   {/* <ProgressBar />  */}
-    {/* </div> */}
     <TestimonialCaret />
   </div>
   </div>

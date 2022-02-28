@@ -22,7 +22,6 @@ function TestimonialDescription() {
     </div>
     <ProgressBar />
 </div>
-<ProgressBar />
 </>
 )
 }

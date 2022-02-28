@@ -8,9 +8,9 @@ function Testimonial() {
       <>
       <div className={classes['testimonial-body']}>\
 <TestimonialText />
-{/* <TestimonialDescription /> */}
+<TestimonialDescription />
 </div>
-{/* <ProgressBar /> */}
+<ProgressBar />
       </>
     )
     }

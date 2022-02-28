@@ -1,5 +1,5 @@
 import classes from './Caret.module.css';
-import {AiFillCaretLeft, AiFillCaretRight} from 'react-icons/ai';
+import {IoIosArrowBack, IoIosArrowForward} from 'react-icons/io';
 
 function Caret() {
  const caretStyle = {fontSize: '2rem', width: '4rem'}
@@ -7,8 +7,8 @@ function Caret() {
 return (
     <>
     <div className={classes.caret}>
-    <div className={classes['caret-left']}><AiFillCaretLeft style={caretStyle} /></div>
-    <div className={classes['caret-right']}><AiFillCaretRight style={caretStyle} /></div>
+    <div className={classes['caret-left']}><IoIosArrowBack style={caretStyle} /></div>
+    <div className={classes['caret-right']}><IoIosArrowForward style={caretStyle} /></div>
 </div>
 </>
 )

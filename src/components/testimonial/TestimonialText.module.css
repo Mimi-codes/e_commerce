@@ -47,17 +47,28 @@ text-transform: capitalize;
     .hr {
         border-top: 3px solid red;
         width: 30px;
-        height:8px;
+        height: 8px;
         margin-top: 10rem;
+        margin-left: 6rem;
+
     }
     
+.hr h4 {
+    text-align: center;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 0.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
     .testimonial {
         display: block;   
         margin-left: 0rem; 
     }
     
     .testimonial-section {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     
     .perfect {
@@ -71,20 +82,25 @@ text-transform: capitalize;
     text-transform: capitalize;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    }
+text-align: center;
+}
     
     .hear-para {
         font-size: 0.8rem;
 margin-left: 2.3rem;
 margin-right: 2.3rem;
+text-align: center;
     }
     
 
     .customers img {
         max-width: 80%;
+        height: 55%;
         margin-left: 0.5rem;
         margin-right: 5rem;
         left: 1rem;
+        position: relative;
+        bottom: 1rem;
       }
     
     

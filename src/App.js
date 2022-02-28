@@ -18,7 +18,7 @@ function App() {
   <Recipe />
   <Menu />
   <Testimonial />
-  {/* <Booking /> */}
+  <Booking />
   {/* <Footer /> */}
 </>
     );

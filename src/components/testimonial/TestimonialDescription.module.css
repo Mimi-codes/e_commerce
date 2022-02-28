@@ -19,22 +19,23 @@
     padding: 2px 16px;
 }
 
-.container p {
-    text-align: center;
-}
-
-
-.container p:nth-last-child(1) {
-color: goldenrod;
-}
-
-
-.container p:nth-last-child(1), .container p:nth-last-child(2) {
-    text-transform: uppercase;
-}
 
 .container h4 {
     margin-left: 2rem;
     margin-right: 1rem;
     margin-top: 5rem;
+}
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px) {
+
+    .card-container {
+        display: flex;
+        margin-left: 1rem;
+        display: none;
+    }
+
+
 }
