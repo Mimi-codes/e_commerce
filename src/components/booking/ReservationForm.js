@@ -21,8 +21,9 @@ function ReservationForm() {
 
     return (
 <>
-<div>
+   <div className={classes.form}>
 <Form onSubmit={handleSubmit(onSubmit)}>
+ 
     <div className={classes['row-one']}>
     <Form.Field>
        {/* <BiUser style = {setStyle}/> */}
@@ -69,6 +70,7 @@ function ReservationForm() {
     {errors.message && <p>Please check the message.</p>}
     </Form.Field>
     </div>
+
 </Form>
 </div>
 </>

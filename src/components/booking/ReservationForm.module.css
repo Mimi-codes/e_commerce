@@ -1,11 +1,3 @@
-/*
-.row-one, .row-two {
-    display: flex;
-    margin-left: 3rem;
-    justify-content: center;
-}
-*/
-
 
 
 
@@ -76,3 +68,82 @@ margin-top: 2rem;
         background: rgb(168, 166, 166);
         border: none;
     }
+
+    
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px) {
+.form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 8.5rem;
+    position: relative;
+    bottom: 2rem; 
+}
+
+.row-one {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    .row-one input {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    background: rgb(240, 234, 234);
+    margin-bottom: 1rem;
+    
+    }
+    
+    .row-two {
+        display: block;
+        position: relative;
+        bottom: 20rem;
+        align-items: center;
+    justify-content: center;
+   
+    
+        }
+    
+        
+    .row-two input {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    background: rgb(240, 234, 234);
+    margin-bottom: 1rem;
+   
+    }
+    
+    
+    
+        .row-three {
+            position: relative;
+            bottom: 20rem;
+        }
+    
+        
+    .row-three input {
+        padding: 1rem 0.1rem 6rem 3rem;
+    background: rgb(240, 234, 234);
+    margin: 0;
+    width: 8.5rem;
+    
+    }
+    
+        input {
+            margin-right: 2rem;
+            padding: 0.5rem 0;
+            width: 8.5rem;
+            background: rgb(168, 166, 166);
+            border: none;
+        }
+    
+        .row-one p, .row-two p {
+            color: red;
+            margin-left: 1.2rem;
+        }
+    
+        BiUser{
+            background: rgb(168, 166, 166);
+            border: none;
+        }
+  
+}

@@ -1,5 +1,5 @@
 .form-section {
-    
+
     position: relative;
     bottom: 20rem;
 }
@@ -32,4 +32,54 @@
     font-size: 1.2rem;
     margin-left: 20rem;
     margin-right: 20rem;
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px) {
+  
+    
+    .hr {
+        border-top: 3px solid red;
+        width: 30px;
+        height:8px;
+        position: relative;
+bottom: 3rem;
+        text-transform: uppercase;
+        margin-left: 5rem;
+   
+    }
+    
+    h4.booking-text {
+        text-transform: uppercase;
+        color: black;
+position: relative;
+bottom: 0.5rem;
+font-size: 0.8rem;
+    }
+    
+    .booking {  
+        text-align: center;
+        justify-content: center;
+    }
+    
+  
+    
+    .book {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;  
+         position: relative;
+        bottom: 2.5rem;
+    }
+    
+    .booking-para {
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 3rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;   
+}
+
+
 }

@@ -19,7 +19,7 @@ function App() {
   <Menu />
   <Testimonial />
   <Booking />
-  {/* <Footer /> */}
+  <Footer />
 </>
     );
 }

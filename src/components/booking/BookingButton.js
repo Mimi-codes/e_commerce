@@ -5,7 +5,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai';
 function BookingButton() {
     return (
         <>   
-        <div className={classes['about-btn']}>
+        <div className={classes['booking-btn']}>
          <button className={classes.btn}>check availability</button>
         <AiOutlineArrowRight  className={classes['arrow-icon']}/>
         </div>

@@ -5,7 +5,7 @@ return (
     <>
     <div className={classes.nav}>
     <h2 className={classes.logo}>Brand Name</h2>
-    <ul>
+    <ul className={classes['nav-bar']}>
         <li className={classes}><a href =''>about</a></li>
         <li className={classes}><a href =''>menu</a></li>
         <li className={classes}><a href =''>Reservation</a></li>

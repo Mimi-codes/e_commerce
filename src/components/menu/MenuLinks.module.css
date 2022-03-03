@@ -66,4 +66,9 @@ padding: 0.4rem 1rem;
     .menu-links li:nth-child(1) {
         margin-left: 0rem;
     }
+
+    .menu-links li:last-child {
+        margin-top: 1rem;
+    }
+
 }  

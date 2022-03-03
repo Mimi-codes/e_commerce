@@ -9,9 +9,27 @@ margin-top: 6rem;
     margin-top: 8rem;
     text-transform: uppercase;
     margin-left: 12rem;
-    flex: 4;
+    flex: 3;
 }
 
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px) {
+    .footer-content-body {
+        display: flex;
+        position: relative;
+        bottom: 25rem;
+        }
+
+        .brand {
+            margin-top: 4rem;
+            text-transform: uppercase;
+            margin-left: 0;
+            flex: 4;
+        }
+
+
+
+}
 
 
 
