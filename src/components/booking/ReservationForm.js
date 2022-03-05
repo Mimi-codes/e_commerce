@@ -66,7 +66,7 @@ function ReservationForm() {
 <div className={classes['row-three']}>
     <Form.Field>
         {/* <TextArea>Message</TextArea> */}
-<input placeholder='Message' type='text' {...register('message')} /> 
+<input placeholder='Message...' type='text' {...register('message')} /> 
     {errors.message && <p>Please check the message.</p>}
     </Form.Field>
     </div>

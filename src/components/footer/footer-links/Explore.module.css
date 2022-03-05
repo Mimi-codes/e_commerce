@@ -1,5 +1,6 @@
-.explore {
-flex: 0.1;
+.explore { 
+    position: relative;
+    right: 12rem;
 }
 
 .explore ul{
@@ -10,7 +11,7 @@ flex: 0.1;
 
 .explore ul li {
     margin: 0;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
  
 }
 
@@ -28,5 +29,11 @@ ul li a {
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
+
+    .explore { 
+        position: relative;
+        right: 12rem;
+        display: none;
+    }
 
 }

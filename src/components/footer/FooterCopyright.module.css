@@ -1,5 +1,46 @@
+.copyright {
+    display: flex;
+    margin-left: 12rem;
+    position: relative;
+    bottom: 8rem;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    margin-left: 14rem;
+    margin-top: 1rem;
+}
+
+.by {
+margin-left: 22rem;
+}
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
-
+    .copyright {
+        display: block;
+        margin-left: 1.5rem;
+        position: relative;
+        bottom: 8rem;
+        font-size: 0.7rem;
+    }
+    
+    .copyright a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .social {
+        margin-left: 3rem;
+        margin-top: 1rem;
+        display: flex;
+    }
+    
+    .by {
+    margin-left: 2.8rem;
+    }
 }

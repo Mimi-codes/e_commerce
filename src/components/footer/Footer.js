@@ -8,8 +8,9 @@ function Footer() {
       <>
       <div className={classes['footer-body']}>
           <FooterContent />
-          {/* <FooterCopyright /> */}
 </div>
+
+<FooterCopyright />
       </>
     )
     }

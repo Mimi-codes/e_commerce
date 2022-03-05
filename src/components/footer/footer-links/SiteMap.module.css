@@ -1,6 +1,6 @@
 .site {
-    /* margin-left: 5rem; */
-    flex: 1;
+    position: relative;
+    right: 4rem;
 }
 
 .site-map{
@@ -18,7 +18,7 @@ margin-left: 11rem;
 
 .site ul li {
     margin: 0;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
  
 }
 
@@ -32,5 +32,39 @@ font-size: 1rem;
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
+
+    .site {
+        position: relative;
+        right: 7rem;
+        display: none;
+    }
+    
+    .site-map{
+        text-transform: capitalize;
+    text-align: center;
+    margin-left: 11rem;
+    }
+    
+    
+    .site ul {
+        display: block;
+        position: relative;
+        bottom: 3rem;
+    }
+    
+    .site ul li {
+        margin: 0;
+        margin-top: 0.3rem;
+     
+    }
+    
+    .links li a {
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    }
+    
+    
+    
+    
 
 }

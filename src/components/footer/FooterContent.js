@@ -5,7 +5,10 @@ import Explore from './footer-links/Explore';
 import Newsletter from './footer-links/Newsletter';
 
 function FooterContent() {
-    return (
+  
+  const setStyle = {fontSize: '1.5rem', backgroundColor: 'rgb(155, 80, 10)', color: 'white', borderRadius: '50px', padding: '0.6rem', position: 'relative', top: '1rem', right: '6rem'} 
+
+  return (
       <>
       <div className={classes['footer-content-body']}>
         <div className={classes.brand}>

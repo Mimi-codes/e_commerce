@@ -6,11 +6,12 @@ margin-top: 6rem;
 }
 
 .brand {
-    margin-top: 8rem;
+    margin-top: 6rem;
     text-transform: uppercase;
     margin-left: 12rem;
     flex: 3;
 }
+
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
@@ -24,7 +25,9 @@ margin-top: 6rem;
             margin-top: 4rem;
             text-transform: uppercase;
             margin-left: 0;
-            flex: 4;
+            flex: 2;
+            font-size: 0.5rem;
+            display: none;
         }
 
 

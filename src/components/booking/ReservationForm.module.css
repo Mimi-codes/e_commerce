@@ -73,8 +73,8 @@ margin-top: 2rem;
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
 .form {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
     max-width: 8.5rem;
     position: relative;
     bottom: 2rem; 
@@ -88,7 +88,7 @@ margin-top: 2rem;
     
     
     .row-one input {
-        padding: 1rem 1.5rem 1rem 1.5rem;
+        padding: 1rem 0.8rem 1rem 1.5rem;
     background: rgb(240, 234, 234);
     margin-bottom: 1rem;
     
@@ -106,7 +106,7 @@ margin-top: 2rem;
     
         
     .row-two input {
-        padding: 1rem 1.5rem 1rem 1.5rem;
+        padding: 1rem 0.8rem 1rem 1.5rem;
     background: rgb(240, 234, 234);
     margin-bottom: 1rem;
    
@@ -121,7 +121,8 @@ margin-top: 2rem;
     
         
     .row-three input {
-        padding: 1rem 0.1rem 6rem 3rem;
+       
+        padding: 2.5rem 0.8rem 2.5rem 1.5rem;
     background: rgb(240, 234, 234);
     margin: 0;
     width: 8.5rem;
