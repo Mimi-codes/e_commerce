@@ -7,6 +7,10 @@
     margin-bottom: 1.2rem;
 }
 
+.newsletter p {
+    color: gray;
+}
+
 .newsletter input {
     padding: 2rem 3rem;
 background: rgb(240, 234, 234);
@@ -45,12 +49,12 @@ margin-top: 0.5rem;
    .newsletter input {
    background: rgb(240, 234, 234);
    margin-top: 0.5rem;
-       
    padding: 1rem 0.6rem 1rem 0.6rem;
    }
    
    .newsletter input placeholder {
        font-size: medium;
    }
+
    
 }

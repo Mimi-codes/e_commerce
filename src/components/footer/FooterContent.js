@@ -12,10 +12,9 @@ function FooterContent() {
       <>
       <div className={classes['footer-content-body']}>
         <div className={classes.brand}>
-        <h2 className={classes.logo}>brand name</h2>
+        <h2 className={classes.logo}>K & S Tastee Treats</h2>
         </div>
         <SiteMap />
-        <Explore />
         <Newsletter />
 </div>
       </>

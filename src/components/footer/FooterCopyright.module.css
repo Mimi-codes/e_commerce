@@ -3,16 +3,19 @@
     margin-left: 12rem;
     position: relative;
     bottom: 8rem;
+    color: gray;
 }
 
 .copyright a {
     text-decoration: none;
     color: black;
+    color: gray;
 }
 
 .social {
     margin-left: 14rem;
     margin-top: 1rem;
+    color: gray;
 }
 
 .by {
@@ -31,13 +34,14 @@ margin-left: 22rem;
     
     .copyright a {
         text-decoration: none;
-        color: black;
+        color: gray;
     }
     
     .social {
         margin-left: 3rem;
         margin-top: 1rem;
         display: flex;
+        
     }
     
     .by {

@@ -12,7 +12,6 @@
 .explore ul li {
     margin: 0;
     margin-top: 1rem;
- 
 }
 
 .explore-text {
@@ -21,9 +20,11 @@ text-align: center;
 margin-left: 12rem;
 }
 
-ul li a {
+.explore ul li a {
     text-transform: capitalize;
     font-size: 1rem;
+    color: gray;
+    text-decoration: none;
 }
 
 

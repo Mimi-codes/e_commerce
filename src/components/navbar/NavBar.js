@@ -4,7 +4,7 @@ function NavBar() {
 return (
     <>
     <div className={classes.nav}>
-    <h2 className={classes.logo}>Brand Name</h2>
+    <h2 className={classes.logo}>K & S Tastee Treats</h2>
     <ul className={classes['nav-bar']}>
         <li className={classes}><a href =''>about</a></li>
         <li className={classes}><a href =''>menu</a></li>

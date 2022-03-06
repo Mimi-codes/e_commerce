@@ -1,18 +1,13 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Atma&family=Cookie&family=Lobster+Two:ital@1&family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;1,100&family=Shadows+Into+Light&family=Short+Stack&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../src/assets/white-abstract-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Antic Slab', serif;
 }
 
 code {
