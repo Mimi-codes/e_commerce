@@ -1,0 +1,21 @@
+.backdrop {
+    position: fixed;
+    top: 14rem;
+    left: 40rem;
+    width: 30%;
+    height: 22vh;
+    z-index: 20;
+    background: gray;
+    border-radius: 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 20vh;
+    left: 5%;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 14px;
+    z-index: 30;
+}
+

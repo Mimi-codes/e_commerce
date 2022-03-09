@@ -1,5 +1,9 @@
 
-
+button {
+    background: none;
+    border: none;
+    font-family: 'Antic Slab', serif;
+}
 
 .nav {
     display: flex;

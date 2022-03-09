@@ -9,11 +9,26 @@ import Menu from './components/menu/Menu';
 import Testimonial from './components/testimonial/Testimonial';
 import Booking from './components/booking/Booking';
 import Footer from './components/footer/Footer';
+import Cart from './components/cart/Cart';
+import {useState} from 'react'
 
 function App() {
-  return (
+
+const [cartIsShown, setCartIsShown] = useState(false); //initial state is false because that is cartIsShown face  
+
+const showCartHandler = () => {
+  setCartIsShown(true);
+}
+
+const hideCartHandler = () => {
+  setCartIsShown(false);
+}
+//To render a component conditionally, simply add curly braces to the beginning with && and the end.
+// to render cart if cartIsShown is truthy and not render if it is not   
+return (
     <>
-   <HeroSection/>
+    {cartIsShown && <Cart />}
+   <HeroSection />
   <About />
   <Recipe />
   <Menu />

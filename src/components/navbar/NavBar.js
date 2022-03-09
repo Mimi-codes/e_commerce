@@ -1,4 +1,6 @@
 import classes from './NavBar.module.css';
+import {BiCartAlt } from 'react-icons/bi';
+import NavBarCartButton from '../cart/NavBarCartButton';
 
 function NavBar() {
 return (
@@ -12,7 +14,7 @@ return (
         <li className={classes}><a href =''>order</a></li>
         <li className={classes}><a href =''>contact</a></li>
         <li className={classes}><a href =''>my account</a></li>
-        <li className={classes}><a href =''>cart</a></li>
+        <li className={classes}><a href =''><NavBarCartButton /></a></li>
     </ul>
     </div>
     </>

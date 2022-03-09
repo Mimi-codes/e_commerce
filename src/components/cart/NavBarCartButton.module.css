@@ -1,0 +1,33 @@
+.badge {
+    font-weight: bold;
+    background: rgb(214, 75, 10);
+    position: relative;
+right: 0.6rem;
+border-radius: 50%;
+top: 0.5rem;
+padding: 0.1rem 0.2rem;
+font-size: 1rem;
+color: white;
+}
+
+ul{
+    display: flex;
+    margin-top: 4.3rem;
+    margin-left: 12rem;
+    }
+    
+ ul li {
+    list-style: none;
+    }
+    
+ li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    }
+    
+    li:nth-last-child(2) {
+        margin-left: 10rem;
+    }
