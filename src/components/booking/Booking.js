@@ -7,7 +7,7 @@ import ReservationForm from './ReservationForm';
 function Booking() {
     return (
       <>
-      <div className={classes['booking-body']}>
+      <div className={classes['booking-body']} >
 <BookingText />
 <ReservationForm />
 <BookingButton />

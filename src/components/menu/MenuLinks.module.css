@@ -21,6 +21,7 @@ color: black;
 font-size: 1rem;
 background: rgb(235, 235, 235);
 padding: 0.4rem 1rem;
+margin-right: 1rem;
 }
 
 .menu-links li:nth-last-child(2) {

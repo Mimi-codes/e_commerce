@@ -1,14 +1,16 @@
+import { Fragment } from "react";
+import NavBarCartButton from "../cart/NavBarCartButton";
 import HeroSectionBg from "./HeroSectionBg";
+import classes from './HeroSection.module.css';
+import NavBar from "../navbar/NavBar";
 
-function HeroSection() {
-return (
-    <>
-<div >
-    <HeroSectionBg />
-</div>
-    </>
-)
 
-}
+const HeroSection = props => {
+    return <Fragment>
+      
+        
+    </Fragment>
+     };
+
 
 export default HeroSection;

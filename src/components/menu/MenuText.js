@@ -5,7 +5,7 @@ import classes from './MenuText.module.css';
 function MenuText() {
     return (
         <>
-        <div className={classes.menu}>
+        <div className={classes.menu} id='menu'>
           <div className={classes['menu-text']}>
     <div className={classes.hr}></div>
     <h4 className={classes.text}>see</h4>

@@ -1,6 +1,7 @@
 import classes from './CakeImages.module.css';
 import cakeLoaf from '../../../assets/cakeloaf.jpg';
 import {AiFillStar} from 'react-icons/ai';
+import MenuForm from '../MenuForm';
 
 
 function CakeImages() {
@@ -12,7 +13,8 @@ return(
     <div className={classes.container}>
         <p>$price</p>
         <p>cake loaf</p>
-        <p><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
+        <MenuForm />
+         <p><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
     </div>
         </div>
 
@@ -21,6 +23,7 @@ return(
 <div className={classes.container}>
     <p>$price</p>
     <p>meatpie</p>
+    <MenuForm />
     <p><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
 </div>
     </div>
@@ -30,7 +33,8 @@ return(
 <div className={classes.container}>
     <p>$price</p>
     <p>donut</p>
-    <p><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
+    <MenuForm />
+<p><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
 </div>
     </div>
 
@@ -39,6 +43,7 @@ return(
 <div className={classes.container}>
     <p>$price</p>
     <p>small chops</p>
+    <MenuForm />
     <p><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
 </div>
     </div>

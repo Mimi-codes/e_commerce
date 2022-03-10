@@ -3,7 +3,7 @@ import classes from './BookingText.module.css';
 function BookingText() {
     return (
         <>
-         <div className={classes['form-section']}>
+         <div className={classes['form-section']} id='reservation'>
        <div className={classes.form}>
         <div className={classes.booking}>
         <div className={classes.hr}><h4 className={classes['booking-text']}>booking</h4> </div>

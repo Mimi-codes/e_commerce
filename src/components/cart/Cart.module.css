@@ -2,35 +2,42 @@
     list-style: none;
     margin: 1rem;
     color: white;
+    margin-left: 2rem;
+    font-weight: bold;
     padding: 0;
     max-height: 20rem;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; 
   };
 
 .total {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
     font-size: 1.5rem;
     margin: 1rem 0;
     color: white;
 }
 
-.total .price {
+.total .total-amount {
+    color: white;
     margin-left: 2rem;
+    /* position: relative; */
+    /* right: 25rem; */
+}
+
+.total .price {
+    margin-left: 20rem;
     color: white;
 }
 
-.total-amount {
-    float: right;
-    font-weight: bold;
-}
+
 
 .actions {
     text-align: right;
-    margin-top: 5px;
+    position: relative;
+    top: 3rem;
+    margin-right: 1rem;
 }
 
 .button--alt {
@@ -40,6 +47,7 @@
     color: white;
     padding: 10px;
     width: 90px;
+    margin-right: 2rem;
 
 }
 
@@ -55,8 +63,8 @@
 
 .button-order:hover,
 .button--alt:hover {
-    background: white;
-    color: #5f240d;
+    background: rgb(192, 192, 192);
+    color: black;
 }
 
 ::-webkit-scrollbar {

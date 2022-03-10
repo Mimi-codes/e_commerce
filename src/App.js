@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/navbar/NavBar';
-import HeroSection from './components/herosection/HeroSection';
+// import NavBar from './components/navbar/NavBar';
+// import HeroSection from './components/herosection/HeroSection';
 import HeroSectionBg from './components/herosection/HeroSectionBg';
 import About from './components/about/About';
 import Recipe from './components/recipe/Recipe';
@@ -27,8 +27,8 @@ const hideCartHandler = () => {
 // to render cart if cartIsShown is truthy and not render if it is not   
 return (
     <>
-    {cartIsShown && <Cart />}
-   <HeroSection />
+    {cartIsShown && <Cart onClose = {hideCartHandler} />}
+    <HeroSectionBg onShowCart = {showCartHandler}/>
   <About />
   <Recipe />
   <Menu />

@@ -5,8 +5,8 @@ const HeroButton = (props) => {
     return (
     <>   
     <div className={classes['hero-button']}>
-     <button className={classes.btn}>Discover Menu</button>
-    <AiOutlineArrowRight  className={classes['arrow-icon']}/>
+     <button className={classes.btn}><a href='#menu'>Discover Menu</a></button>
+     <a href='#menu'><AiOutlineArrowRight  className={classes['arrow-icon']}/></a>
     </div>
     </>
 )

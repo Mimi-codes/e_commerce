@@ -2,12 +2,16 @@ import NavBar from '../navbar/NavBar';
 import classes from './HeroSectionBg.module.css';
 import HeroSectionContent from './HeroSectionContent';
 import HeroSvg from './HeroSvg';
+import NavBarCartButton from "../cart/NavBarCartButton";
 
-function HeroSectionBg() {
+const HeroSectionBg = props => {
 return (
     <>
     <div className={classes['hero-bg']}>
-        <NavBar />
+    <header className={classes.header}>
+            <NavBar />
+            <NavBarCartButton onClick = {props.onShowCart}/>
+        </header>
         <HeroSectionContent />
         <HeroSvg />
     </div>

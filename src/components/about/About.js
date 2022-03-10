@@ -6,7 +6,7 @@ import AboutText from './AboutText';
 function About() {
 return (
     <>
-    <div className={classes['about-bg']}>
+    <div className={classes['about-bg']} id='about'>
     <div className={classes.about}>
 <AboutImg />
 <AboutText />
