@@ -10,7 +10,9 @@ import Testimonial from './components/testimonial/Testimonial';
 import Booking from './components/booking/Booking';
 import Footer from './components/footer/Footer';
 import Cart from './components/cart/Cart';
-import {useState} from 'react'
+import {Fragment, useState} from 'react'
+import CartProvider from './store/CartProvider';
+// import CartProvider from './store/CartProvider'
 
 function App() {
 
@@ -26,7 +28,7 @@ const hideCartHandler = () => {
 //To render a component conditionally, simply add curly braces to the beginning with && and the end.
 // to render cart if cartIsShown is truthy and not render if it is not   
 return (
-    <>
+  <CartProvider>
     {cartIsShown && <Cart onClose = {hideCartHandler} />}
     <HeroSectionBg onShowCart = {showCartHandler}/>
   <About />
@@ -35,7 +37,7 @@ return (
   <Testimonial />
   <Booking />
   <Footer />
-</>
+</CartProvider>
     );
 }
 
